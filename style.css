@@ -1,0 +1,60 @@
+p   {
+    background-color: yellow;
+}
+
+.special {
+    font-size: 24px;
+}
+
+.highlight p{
+    background-color: green;
+}
+
+img {
+    border: solid 2px black;
+}
+a:hover {
+    background-color: aliceblue;
+}
+
+p::first-line {
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+input["text"]:focus {
+    border-color: blue
+
+}
+
+input:focus, textarea:focus {
+    border-color:blue   
+}
+
+.warning::before{
+    content: "🆘";
+}
+
+p:last-child {
+    background-color: brown;
+}
+
+.note::after {
+    content: "🗒️";
+}
+
+a:visited {
+    color: rgb(28, 136, 100);
+}
+
+.quote p::first-line{
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    font-weith: bold;
+}
